@@ -1,7 +1,6 @@
 ---
 title: "Learning cybersecurity with CTFLearn"
 date: 2021-09-21T17:21:11+01:00
-draft: true
 cover: "img/ctf.jpeg"
 tags: ["CTF", "CTFLearn"]
 description: "Time for yet another side project!"
