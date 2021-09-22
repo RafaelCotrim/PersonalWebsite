@@ -1,22 +1,13 @@
-+++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
-+++
+---
+title: "About"
+date: "2021-09-21"
+author: "Rafael Cotrim"
+---
 
-# Hi there
+# Hello!
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+I'm Rafael Cotrim, and this is my blog/archive. I'm a Brazilian software developer, but I'm currently living in Portugal. Most of my experience is in web development with C# and .NET, but I'm always experimenting with new things.
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Stick around for posts about random things I'm learning and occasionally other topics.
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
-
-The theme includes:
-
-- **5 duotone themes**, depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice, custom duotone** syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- mobile friendly layout
-
-So, there you have it... enjoy!
+Oh, and I have published a [scientistic article](https://astesj.com/v06/i04/p38/)! It is an energy consumption analysis of MAC protocols used in wireless sensor networks. Maybe I'll write a post about how I built those simulations someday, but I'm kind of fed up with OMNeT++ at the moment... C++, it always surprises me how you are consistently able to fry my brain...
