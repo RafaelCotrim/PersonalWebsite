@@ -1,0 +1,12 @@
+
+{{ $img := $.Page.Resources.GetMatch (.Get "src")}}
+
+{{ if $img }}
+  <img src="{{ $img.RelPermalink }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+{{ end }}
+
+{{ if $img }}
+  <img src="{{ $img.RelPermalink }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+{{ else if .Get "src" }}
+  <img src="{{ .Get "src" }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+{{ end }}

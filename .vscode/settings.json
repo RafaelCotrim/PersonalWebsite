@@ -9,6 +9,8 @@
         "plaintext"
     ],
     "spellright.ignoreRegExps": [
-        "/cover: .*?\\n/gm"
+        "/cover: .*?\\n/gm",
+        "/https:.*?\\s/gm",
+        "/[A-Z]+[^a-z\\s]+/gm"
     ]
 }
